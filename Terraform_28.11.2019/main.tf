@@ -11,7 +11,7 @@ provider "azurerm" {
 terraform {
   backend "azurerm" {
     storage_account_name  = "csbca02541675a2x4c58xb1a"
-    container_name        = "tfstate"
+    container_name        = "tfstate1"
     key                   = "codelab.microsoft.tfstate"
   }
 }
