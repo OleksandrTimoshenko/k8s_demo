@@ -18,7 +18,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: wps
-        image: regfork8s.azurecr.io/wordpress:v1
+        image: newcr13112019.azurecr.io/wordpress:v1
         ports:
         - containerPort: 80
         resources:
