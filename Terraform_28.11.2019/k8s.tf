@@ -13,7 +13,6 @@ resource "azurerm_log_analytics_workspace" "test" {
     location            = "${var.log_analytics_workspace_location}"
     resource_group_name = "${azurerm_resource_group.k8s.name}"
     sku                 = "${var.log_analytics_workspace_sku}"
-    retention_in_days   = 30
 }
 
 resource "azurerm_log_analytics_solution" "test" {
